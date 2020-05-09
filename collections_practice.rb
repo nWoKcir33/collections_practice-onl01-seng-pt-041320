@@ -20,8 +20,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  new_array = []
-  array.each {|i| new_array << i.gsub(i[2], "$"}
-end
-new_array
+  array.each |i|
+  i[2] = "$"
+ end
 end
