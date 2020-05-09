@@ -21,7 +21,7 @@ end
 
 def kesha_maker(array)
   new_array = []
-  array.each {|i| i.gsub [2], $}
+  array.each {|i| new_array << i.gsub [2], $}
 end
 new_array
 end
